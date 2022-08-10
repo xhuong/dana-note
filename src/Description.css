@@ -1,0 +1,169 @@
+.description {
+	padding: 40px 0;
+}
+
+.description__container {
+	max-width: 1140px;
+	margin: 0 auto;
+}
+
+.description__content {
+}
+
+.description__breadcrum-link {
+	display: inline-block;
+	font-size: 1.6rem;
+	font-weight: 500;
+	color: var(--gray-text-color);
+	padding: 8px 0;
+}
+.description__breadcrum-link:first-child {
+	margin-right: 12px;
+}
+
+.description__breadcrum-link:not(:first-child) {
+	margin: 0 12px;
+}
+
+.description__hero {
+	margin-top: 20px;
+	display: flex;
+	gap: 0 30px;
+	border: 2px solid var(--primary-color);
+	border-radius: 24px;
+}
+
+.description__hero-content {
+	width: 900px;
+	padding: 16px;
+}
+
+.description__hero-heading {
+	font-size: 1.6rem;
+	font-weight: 800;
+	line-height: 1.8;
+	margin-bottom: 8px;
+}
+
+.description__hero-subheading {
+	text-align: justify;
+	font-size: 1.6rem;
+	font-weight: 500;
+	color: var(--black-color);
+}
+
+.description__hero-subheading:not(:last-child) {
+	margin-bottom: 24px;
+}
+
+.description__hero-viewmore {
+	font-size: 1.6rem;
+	font-weight: 600;
+	color: #0061a0;
+}
+
+.description__hero-action-list {
+	margin: 16px;
+}
+
+.description__body {
+	padding: 40px 0;
+	display: flex;
+	column-gap: 16px;
+}
+
+.description__ads {
+	min-width: 240px;
+}
+
+.description__ads-image-wrapper {
+	width: 100%;
+}
+
+.description__body-main {
+	width: calc(100% - 240px - 40px);
+}
+
+.description__story {
+	margin-bottom: 60px;
+}
+
+.description__story-card {
+	width: 160px !important;
+	display: block !important;
+	position: relative;
+}
+
+.description__story-card-image-profile-wrapper {
+	position: absolute;
+	top: 12px;
+	left: 12px;
+	width: 30px;
+	height: 30px;
+}
+
+.description__user {
+	position: absolute;
+	bottom: 12px;
+	left: 50%;
+	transform: translateX(-50%);
+	color: #fff;
+	text-shadow: 3px 2px 17px black;
+}
+
+.description__star-icon {
+	color: var(--primary-color);
+}
+
+.description__comment-item {
+	padding: 16px;
+	border-radius: 12px;
+	border: 2px solid var(--primary-color);
+}
+.description__comment-item:not(:last-child) {
+	margin-bottom: 24px;
+}
+
+.description__comment-author {
+	display: flex;
+}
+
+.description__star-list {
+	display: flex;
+}
+
+.description__comment-user,
+.description__comment-time {
+	font-size: 1.2rem;
+	margin-right: 6px;
+}
+
+.description__comment-content {
+	font-size: 1.4rem;
+	font-weight: 400;
+	text-align: justify;
+}
+
+.description__action-list {
+	position: fixed;
+	top: 50%;
+	right: 120px;
+}
+
+.description__action-item:not(:last-child) {
+	margin-bottom: 16px;
+}
+
+.description-btn {
+	background-color: var(--primary-color);
+	border: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 42px;
+	height: 42px;
+	border-radius: 50%;
+	cursor: pointer;
+	color: #fff;
+	font-size: 2rem;
+}

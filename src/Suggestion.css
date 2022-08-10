@@ -1,0 +1,36 @@
+.suggestion {
+	padding: 120px 0;
+}
+
+.suggestion__container {
+	max-width: 1140px;
+	margin: 0 auto;
+	background-color: var(--secondary-color);
+}
+
+.suggestion__content {
+	padding: 60px 40px;
+}
+
+.suggestion__heading {
+	text-align: center;
+	font-size: 1.8rem;
+	font-weight: 600;
+	color: var(--black-color);
+	padding: 32px 0;
+}
+
+.suggestion__card {
+	max-width: 320px;
+}
+
+.suggestion__card-title {
+	font-size: 1.6rem;
+	font-weight: 500;
+	line-height: 1.6;
+	padding: 6px 0;
+}
+
+.slick-slider {
+	text-align: center;
+}

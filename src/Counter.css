@@ -1,0 +1,33 @@
+.counter {
+}
+
+.counter__container {
+	max-width: 1140px;
+	margin: 0 auto;
+}
+
+.counter__content {
+	padding: 120px 0;
+}
+
+.counter__list {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.counter__item {
+	text-align: center;
+}
+
+.counter__number {
+	color: var(--primary-color);
+	font-size: 3rem;
+	font-weight: 700;
+}
+
+.counter__paraghrap {
+	font-size: 1.6rem;
+	font-weight: 500;
+	color: var(--gray-text-color);
+}

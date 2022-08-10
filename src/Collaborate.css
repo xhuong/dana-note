@@ -1,0 +1,29 @@
+.collaborate {
+	padding: 60px 0;
+}
+
+.collaborate__container {
+	max-width: 1140px;
+	margin: 0 auto;
+}
+
+.collaborate__content {
+}
+
+.collaborate__heading {
+	text-align: center;
+	font-size: 1.8rem;
+	font-weight: 800;
+	padding: 24px 0;
+}
+
+.collaborate__list {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.collaborate__image-wrapper {
+	width: 180px;
+	height: auto;
+}

@@ -1,0 +1,46 @@
+.aboutus {
+	padding: 80px 0;
+}
+
+.aboutus__container {
+	max-width: 1140px;
+	margin: 0 auto;
+}
+
+.aboutus__content {
+	display: flex;
+	align-items: center;
+	padding: 0 40px;
+	gap: 0 170px;
+}
+
+.aboutus__content.reverse {
+	flex-direction: row-reverse;
+}
+
+.aboutus__image-wrapper {
+	width: 420px;
+	height: auto;
+	border-radius: 8px;
+	overflow: hidden;
+}
+
+.aboutus__info {
+	width: 470px;
+	max-width: 470px;
+	text-align: center;
+}
+
+.aboutus__heading {
+	margin-bottom: 24px;
+	font-size: 1.8rem;
+}
+
+.aboutus__paraghrap {
+	text-align: justify;
+	font-size: 1.6rem;
+	line-height: 1.6;
+	font-weight: 500;
+	color: var(--gray-text-color);
+	margin-bottom: 24px;
+}
